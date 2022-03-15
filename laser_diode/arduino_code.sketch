@@ -1,0 +1,25 @@
+const int ledPin = 6;
+int brightness = 70;
+String inString = ""; 
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  if (Serial.available()) {
+    int inChar = Serial.read();
+    // set the brightness of the LED:
+    if (isDigit(inChar)) {
+      inString += (char)inChar;
+    }
+    if (inChar == '\n') {
+      brightness = inString.toInt();
+      Serial.print("String: ");
+      Serial.println(brightness);
+      inString = "";
+    }
+  }
+  analogWrite(ledPin, brightness);
+}
