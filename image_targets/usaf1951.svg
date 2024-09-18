@@ -6,7 +6,7 @@
    height="2400"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="usaf1951.svg"
    inkscape:export-filename="/home/kaan/usaf1951.png"
    inkscape:export-xdpi="96"
@@ -27,15 +27,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.11313708"
-     inkscape:cx="959.01357"
-     inkscape:cy="2178.7728"
+     inkscape:zoom="0.15999999"
+     inkscape:cx="128.12501"
+     inkscape:cy="1671.8751"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="mm"
      inkscape:window-width="1920"
-     inkscape:window-height="962"
+     inkscape:window-height="1016"
      inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -79,7 +79,7 @@
     </g>
     <g
        id="g2009"
-       transform="translate(23.704787)">
+       transform="matrix(0.58119425,0,0,0.58119425,928.74521,545.13829)">
       <g
          id="g3791"
          style="fill:#fffff5;fill-opacity:1"
